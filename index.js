@@ -1,7 +1,4 @@
 console.log('\n-STARTING-\n');
-
-// //////////////////////////////////////////////////////////////////////////////////////////////
-
 const Auth = require('./Auth.js');
 
 process.on('unhandledRejection', (error) => {
@@ -35,8 +32,6 @@ exports.linkGuilds = [['417110408088780801', '309785618932563968']];
 
 exports.dbPass = Auth.dbPass;
 exports.dbPassVeil = Auth.dbPassVeil;
-
-// //////////////////////////////////////////////////////////////////////////////////////////////
 
 global.index = module.exports;
 
@@ -249,21 +244,21 @@ function setBriefing() {
 }
 
 exports.globalBan = {
-    '201740276472086528': true, // No idea
-    '75736018761818112': true, // No idea
-    '123146298504380416': true, // No idea
-    '263372398059847681': true, // No idea
-    '238981466606927873': true, // Lindah
-    '189687397951209472': true, // xCraySECx / Nico Nico
-    '154255141317378050': true, // HighDefinition
-    '157749388964265985': true, // Zetroxer
-    '280419231181307906': true, // Solarical
-    '169261309353918464': true, // Slappy826
-    '331958080164200453': true, // derickbuum
-    '284410389469593611': true, // Papi
-    '255779902387650560': true, // Shiro's Twin
-    '80385350316339200': true, // Fennec
-    '175013861701713920': true, // chrome
+    '201740276472086528': true, 
+    '75736018761818112': true, 
+    '123146298504380416': true, 
+    '263372398059847681': true, 
+    '238981466606927873': true,
+    '189687397951209472': true, 
+    '154255141317378050': true, 
+    '157749388964265985': true,  
+    '280419231181307906': true, 
+    '169261309353918464': true, 
+    '331958080164200453': true, 
+    '284410389469593611': true,
+    '255779902387650560': true, 
+    '80385350316339200': true, 
+    '175013861701713920': true, 
 };
 
 function securityFunc(guild, member, sendRoleParam) {
@@ -1734,12 +1729,12 @@ client.on('message', (msgObj) => {
                                         // numNew2 = i + 1; // Set number of new messages as i+1
                                     }
                                 }
-                                // Util.logc(
-                                //     'AntiSpam1',
-                                //     `[2] User: ${Util.getName(
-                                //         speaker,
-                                //     )} | Messages Since ${elapsed2} Seconds: ${numNew2} | Gradient2: ${grad2}`,
-                                // );
+//                                 Util.logc(
+//                                     'AntiSpam1',
+//                                     `[2] User: ${Util.getName(
+//                                         speaker,
+//                                     )} | Messages Since ${elapsed2} Seconds: ${numNew2} | Gradient2: ${grad2}`,
+//                                 );
                                 if (grad2 >= checkGrad2) {
                                     // If gradient (velocity) is higher than checking gradient
                                     Util.logc(
@@ -1784,7 +1779,7 @@ client.on('message', (msgObj) => {
     }
 
     if (guild != null && index.crabRave.goneId != null && guild.id === index.crabRave.goneGuild && author.bot === false) {
-        Util.print(channel, `🦀🦀🦀🦀🦀🦀 ${index.crabRave.goneName} IS GONE 🦀🦀🦀🦀🦀🦀`);
+        Util.print(channel, `🦀🦀🦀🦀 ${index.crabRave.goneName} IS GONE 🦀🦀🦀🦀`);
     }
 
     if (guild && exports.slowChat[guild.id] && author.bot === false && !isStaff) {
