@@ -1,4 +1,4 @@
-# VaeBot - A Multi-Purpose Discord Bot
+# TheBOT - A Multi-Purpose Discord Bot
 
 ## Includes
 - Full warn/mute based moderation system
@@ -39,11 +39,11 @@
 
 **;history** OR **;mutehistory** - Get all users with mute history
 
-**;join** OR **;summon** - Make VaeBot join a voice channel
+**;join** OR **;summon** - Make Your Bot join a voice channel
 
 **;kick** OR **;eject** - Kick a user from the guild
 
-**;leave** OR **;exit** - Make VaeBot leave it's voice channel
+**;leave** OR **;exit** - Make Your Bot leave it's voice channel
 
 **;link** OR **;addlink** OR **;trigger** OR **;event** - Link an event to an action
 
@@ -55,7 +55,7 @@
 
 **;nick** OR **;nickname** - Set a user's nickname
 
-**;playf** - Make VaeBot play some bangin' tunes... from a file :o
+**;playf** - Make Your Bot play some bangin' tunes... from a file :o
 
 **;remauto** OR **;rema** - Remove a song from the music auto-playlist
 
